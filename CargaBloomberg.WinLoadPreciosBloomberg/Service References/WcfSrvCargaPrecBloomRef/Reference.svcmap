@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e2d8fb48-03a8-4748-8494-c78a6aa675ca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50796/CargarPreciosBloomSrv.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CargarPreciosBloomSrv.xsd" MetadataType="Schema" ID="f189e4d0-9310-4aee-a489-a91b77630545" SourceId="1" SourceUrl="http://localhost:50796/CargarPreciosBloomSrv.svc?xsd=xsd2" />
+    <MetadataFile FileName="CargarPreciosBloomSrv1.xsd" MetadataType="Schema" ID="0ab536eb-f312-4664-9513-e8f47756d607" SourceId="1" SourceUrl="http://localhost:50796/CargarPreciosBloomSrv.svc?xsd=xsd1" />
+    <MetadataFile FileName="CargarPreciosBloomSrv.disco" MetadataType="Disco" ID="0ae7fcbc-0ead-45f8-86a9-a604e3610a7e" SourceId="1" SourceUrl="http://localhost:50796/CargarPreciosBloomSrv.svc?disco" />
+    <MetadataFile FileName="CargarPreciosBloomSrv.wsdl" MetadataType="Wsdl" ID="55b704e6-23d9-4672-b377-f14cdfcf9c6d" SourceId="1" SourceUrl="http://localhost:50796/CargarPreciosBloomSrv.svc?wsdl" />
+    <MetadataFile FileName="CargarPreciosBloomSrv2.xsd" MetadataType="Schema" ID="e8cbd75b-294f-4b80-9347-c62920b807c2" SourceId="1" SourceUrl="http://localhost:50796/CargarPreciosBloomSrv.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
